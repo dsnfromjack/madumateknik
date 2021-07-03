@@ -3,6 +3,11 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u3266744/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp service-ac.html $DEPLOYPATH
+    - /bin/cp service-elektronik.html $DEPLOYPATH
+    - /bin/cp service-mesin-cuci.html $DEPLOYPATH
+    - /bin/cp service-pompa.html $DEPLOYPATH
+    - /bin/cp service-sedot-wc.html $DEPLOYPATH
     - /bin/cp favicon.png $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
