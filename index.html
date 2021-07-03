@@ -14,6 +14,14 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" />
     <link href="slick/slick.css" rel="stylesheet" type="text/css" />
+
+    <!-- Ojak Changes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- Ojak Changes -->
+
   </head>
   <body>
     <!--Header Section-->
@@ -21,7 +29,7 @@
       <div class="container">
         <div class="header_box">
           <div class="logo">
-            <a href="#"
+            <a href="index.html"
               ><img
                 src="assets/img/logo/madumateknik-logo.png"
                 alt="logo"
@@ -45,7 +53,7 @@
             <div id="main-nav" class="collapse navbar-collapse navStyle">
               <ul class="nav navbar-nav" id="mainNav">
                 <li>
-                  <a href="#hero" class="scroll-link">Home</a>
+                  <a href="index.html" class="scroll-link">Home</a>
                 </li>
                 <li><a href="#aboutUs" class="scroll-link">Tentang</a></li>
                 <li><a href="#service" class="scroll-link">Layanan</a></li>
@@ -158,70 +166,78 @@
     <div id="service" class="service-section">
       <div class="container">
         <h2>Layanan Kami</h2>
-
         <div class="service-list-card fadeInRight animated wow">
-          <div class="service-card">
-            <div class="card-img">
-              <img src="assets/icons/service-icons/1.png" alt="icon-ac" />
+          <a href="service-ac.html" class="service-card">
+            <div>
+              <div class="card-img">
+                <img src="assets/icons/service-icons/1.png" alt="icon-ac" />
+              </div>
+              <div class="card-name">
+                <p>Service AC</p>
+              </div>
+              <div class="card-description">
+                <p>Segala bentuk kerusakan AC berbagai type dan merk</p>
+              </div>
             </div>
-            <div class="card-name">
-              <p>Service AC</p>
-            </div>
-            <div class="card-description">
-              <p>Segala bentuk kerusakan AC berbagai type dan merk</p>
-            </div>
-          </div>
+          </a>
 
-          <div class="service-card">
-            <div class="card-img">
-              <img src="assets/icons/service-icons/2.png" alt="icon-ac" />
+          <a href="service-mesin-cuci.html" class="service-card">
+            <div>
+              <div class="card-img">
+                <img src="assets/icons/service-icons/2.png" alt="icon-ac" />
+              </div>
+              <div class="card-name">
+                <p>Service Mesin Cuci</p>
+              </div>
+              <div class="card-description">
+                <p>Service kerusakan, ganti spare part, dan kabel putus</p>
+              </div>
             </div>
-            <div class="card-name">
-              <p>Service Mesin Cuci</p>
-            </div>
-            <div class="card-description">
-              <p>Service kerusakan, ganti spare part, dan kabel putus</p>
-            </div>
-          </div>
-          <div class="service-card">
-            <div class="card-img">
-              <img src="assets/icons/service-icons/3.png" alt="icon-ac" />
-            </div>
-            <div class="card-name">
-              <p>Service Electronik</p>
-            </div>
-            <div class="card-description">
-              <p>Service peralatan elektronik rumah tangga</p>
-            </div>
-          </div>
+          </a>
 
-          <div class="service-card">
-            <div class="card-img">
-              <img src="assets/icons/service-icons/4.png" alt="icon-ac" />
+          <a href="service-elektronik.html" class="service-card">
+            <div>
+              <div class="card-img">
+                <img src="assets/icons/service-icons/3.png" alt="icon-ac" />
+              </div>
+              <div class="card-name">
+                <p>Service Electronik</p>
+              </div>
+              <div class="card-description">
+                <p>Service peralatan elektronik rumah tangga</p>
+              </div>
             </div>
-            <div class="card-name">
-              <p>Service Pompa</p>
-            </div>
-            <div class="card-description">
-              <p>Service Pompa Air berbagai type dan merk</p>
-            </div>
-          </div>
+          </a>
 
-          <div class="service-card">
-            <div class="card-img">
-              <img
-                src="assets/icons/service-icons/5.png"
-                alt="icon-ac"
-                class="img-responsive"
-              />
+          <a href="service-pompa.html" class="service-card">
+            <div>
+              <div class="card-img">
+                <img src="assets/icons/service-icons/4.png" alt="icon-ac" />
+              </div>
+              <div class="card-name">
+                <p>Service Pompa</p>
+              </div>
+              <div class="card-description">
+                <p>Service Pompa Air berbagai type dan merk</p>
+              </div>
             </div>
-            <div class="card-name">
-              <p>Sedot WC</p>
+          </a>
+
+          <a href="service-sedot-wc.html" class="service-card">
+            <div>
+              <div class="card-img">
+                <img
+                  src="assets/icons/service-icons/5.png" alt="icon-ac" class="img-responsive"/>
+              </div>
+              <div class="card-name">
+                <p>Sedot WC</p>
+              </div>
+              <div class="card-description">
+                <p>Sedot septic tank penuh dan mampet​​</p>
+              </div>
             </div>
-            <div class="card-description">
-              <p>Sedot septic tank penuh dan mampet​​</p>
-            </div>
-          </div>
+          </a>
+
         </div>
       </div>
     </div>
@@ -313,7 +329,60 @@
           </h3>
           <div class="line-orange"></div>
         </div>
-        <div class="slider-gallery fadeInRight animated wow">
+
+        <!-- Ojak Changes -->
+        <div class="container-fluid">
+          <div class="row mt-4">
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/1.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/1.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/2.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/2.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/3.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/3.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/4.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/4.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/5.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/5.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/6.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/6.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/7.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/7.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/8.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/8.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="item col-sm-6 col-md-4 mb-3">
+              <a href="assets/img/gallery/9.png" class="fancybox" data-fancybox="gallery1">
+                <img src="assets/img/gallery/9.png" class="img-responsive" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Ojak Changes -->
+
+        <!-- <div class="slider-gallery fadeInRight animated wow">
           <div class="slider-images">
             <img src="assets/img/gallery/1.png" class="img-responsive" />
           </div>
@@ -329,7 +398,8 @@
           <div class="slider-images">
             <img src="assets/img/gallery/1.png" class="img-responsive" />
           </div>
-        </div>
+        </div> -->
+
       </div>
     </div>
 

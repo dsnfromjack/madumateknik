@@ -327,6 +327,18 @@ body {
   }
 }
 
+.about-section h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: var(--mainColor);
+  width: 74%;
+  margin: 0px auto;
+}
+
 .about-section h2 {
   color: #ff543e;
   font-family: Poppins;
@@ -447,6 +459,14 @@ body {
   height: 276px;
   background: #f6f7f9;
   border-radius: 8px;
+  color: #333;
+}
+
+.service-card:hover{
+  text-decoration: none;
+  transform: scale(1.05);
+  transition: .5s ease-out;
+  color: #333;
 }
 
 @media (max-width: 600px) {
@@ -669,6 +689,72 @@ body {
 
 @media (max-width: 600px) {
   .gallery-section .gallery-description h3 {
+    font-size: 22px;
+    width: 100%;
+    line-height: 28px;
+  }
+}
+
+.line-orange {
+  position: relative;
+  width: 82px;
+  height: 0px;
+  margin: 42px auto;
+  border: 2px solid #ff543e;
+}
+
+@media (max-width: 600px) {
+  .slider-images img {
+    margin: 0 auto;
+  }
+}
+
+.slider-gallery .slider-images img {
+  border: 10px var(--seaSalt) solid;
+}
+
+.gallery-section2 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100px;
+  /* background: url(../assets/img/background/gallery.png); */
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.85);
+}
+
+.gallery-section2 h2 {
+  margin-top: 121px;
+  margin-bottom: 36px;
+  color: #ff543e;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .gallery-section2 h2 {
+    margin-top: 40px;
+  }
+}
+
+.gallery-section2 .gallery-description h3 {
+  color: var(--mainColor);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  width: 72%;
+  margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+  .gallery-section2 .gallery-description h3 {
     font-size: 22px;
     width: 100%;
     line-height: 28px;
@@ -1399,3 +1485,18 @@ footer {
   line-height: 125%;
   text-align: center;
 }
+
+
+/* Ojak Changes
+---------------------------------*/
+.item{
+  transition: .3s ease-in-out;
+  padding: 10px;
+}
+
+.item:hover{
+  filter: brightness(80%);
+}
+
+/* Ojak Changes
+---------------------------------*/
